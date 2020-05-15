@@ -3,7 +3,7 @@
 # Module required: Mediasiteps
 Some scripts in here require the Mediasiteps module already be loaded.  The module can be found here: https://github.com/wunde005/MediasitePS
  - [Slide count report](#slide-count-report)
- - [Folder tools](#folder-tools)
+ - [Folder tools](#folder-tools) (save and load folder tree)
  - [SRT caption time adjuster](#srt-caption-time-adjuster)
 
 # Slide count report

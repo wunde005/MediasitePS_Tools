@@ -18,8 +18,7 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 ---
 
 # Folder Tools:
-Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server
-
+Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server  
 note: Requires mediasiteps module be loaded
 ---
 

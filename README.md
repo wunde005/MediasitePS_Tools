@@ -4,7 +4,7 @@
 Some scripts in here require the Mediasiteps module already be loaded.  The module can be found here: https://github.com/wunde005/MediasitePS
 
 # slide count report
-Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days
+Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days  
 <sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
 
 ---

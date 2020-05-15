@@ -1,13 +1,13 @@
 # Mediasiteps_Tools
 
-# Module required: Mediasiteps
+## Module required: Mediasiteps
 Some scripts in here require the Mediasiteps module already be loaded.  The module can be found here: https://github.com/wunde005/MediasitePS
  - [Slide count report](#slide-count-report)
  - [Folder tools](#folder-tools) (save and load folder tree)
  - [SRT caption time adjuster](#srt-caption-time-adjuster)
 
-# Slide count report
-Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days  
+## Slide count report
+Powershell script reports on slide count and slides per minute for the last X amount of days  
 <sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
 ---
 
@@ -17,11 +17,11 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 - DESCRIPTION: Reports on slide count and slides per minute for presentations recordeded in the last X amount of days(Default is 1 day).  It also allows filtering by mininum slide count (-minslides) and minimum slides per minute (-minslidespermin)
     
 ---
-## Slide count report: Example
+### Slide count report: Example
 ![Example](/docs/images/slide_report_example.jpg)
 
 ---
-# Folder Tools:
+## Folder Tools:
 Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server  
 <sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
 ---
@@ -49,22 +49,22 @@ Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and 
     in the recycle bin.
 
 ---
-## Folder Tools: Example
+### Folder Tools: Example
 ![Example](/docs/images/folder_dump_example.JPG)
 
 
 
 ---
-# Srt Caption Time Adjuster:
+## Srt Caption Time Adjuster:
 
-- NAME: **bin\srt-time-shift.ps1**
+- NAME: **srt-time-shift.ps1**
 - SYNOPSIS: Reads SRT file and outputs new one with time shifted by cut time
-- SYNTAX: ```bin\srt-time-shift.ps1 -file <String> -cuttime <string> -outfile <string> ```
+- SYNTAX: ```srt-time-shift.ps1 -file <String> -cuttime <string> -outfile <string> ```
 - DESCRIPTION:
     Reads an SRT file and outputs a new SRT file with the time shifted by the cut time.
     The cut time can be found in the Mediasite web editor.  When you're editing the video put the time line marker to the new begining of the video.  In the time area on the right copy the time (highlighted yellow in the example) and use it as the "cuttime". 
     
 ---
-# Srt Caption Time Adjuster: Example
+## Srt Caption Time Adjuster: Example
 ![Example](/docs/images/srt_time_example.jpg)
 

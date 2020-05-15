@@ -11,10 +11,12 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 - NAME: **slidecountreport.ps1**
 - SYNOPSIS: Reports on slide count and slides per minute for the last X amount of days
 - SYNTAX: ```slidecountreport.ps1 [[-days] <int>] [[-minslides] <int>] [[-minslidespermin] <single>]```
-- DESCRIPTION: Reports on slide count and slides per minute for presentations recordeded in the last X amount of days(Default is 1 day).  
-    It also allows filtering by mininum slide count (-minslides) and minimum slides per minute (-minslidespermin)
+- DESCRIPTION: Reports on slide count and slides per minute for presentations recordeded in the last X amount of days(Default is 1 day).  It also allows filtering by mininum slide count (-minslides) and minimum slides per minute (-minslidespermin)
     
 ---
+# Example
+![Example](/docs/images/slide_report_example.jpg)
+
 
 # Folder Tools:
 Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server  

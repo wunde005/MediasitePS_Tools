@@ -3,10 +3,9 @@
 # Module required: Mediasiteps
 Some scripts in here require the Mediasiteps module already be loaded.  The module can be found here: https://github.com/wunde005/MediasitePS
 
-# slide count report
+# Slide count report
 Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days  
 <sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
-
 ---
 
 - NAME: **slidecountreport.ps1**
@@ -18,8 +17,8 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 ---
 
 # Folder Tools:
-Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server<br/>  
-note: Requires mediasiteps module be loaded
+Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and load folders on a Mediasite server  
+<sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
 ---
 
 - NAME: **savefolders.ps1**
@@ -63,4 +62,4 @@ note: Requires mediasiteps module be loaded
 ---
 # Example
 ![Example](/docs/images/srt_time_example.jpg)
-"# MediasitePS_Tools" 
+

@@ -2,6 +2,9 @@
 
 # Module required: Mediasiteps
 Some scripts in here require the Mediasiteps module already be loaded.  The module can be found here: https://github.com/wunde005/MediasitePS
+ - [Slide count report](#slide-count-report)
+ - [Folder tools](#folder-tools)
+ - [SRT caption time adjuster](#srt-caption-time-adjuster)
 
 # Slide count report
 Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days  
@@ -14,7 +17,7 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 - DESCRIPTION: Reports on slide count and slides per minute for presentations recordeded in the last X amount of days(Default is 1 day).  It also allows filtering by mininum slide count (-minslides) and minimum slides per minute (-minslidespermin)
     
 ---
-## Slide count report:Example
+## Slide count report: Example
 ![Example](/docs/images/slide_report_example.jpg)
 
 ---

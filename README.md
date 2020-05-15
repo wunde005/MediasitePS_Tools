@@ -14,7 +14,7 @@ Powershell script slidecountreport.ps1 reports on slide count and slides per min
 - DESCRIPTION: Reports on slide count and slides per minute for presentations recordeded in the last X amount of days(Default is 1 day).  It also allows filtering by mininum slide count (-minslides) and minimum slides per minute (-minslidespermin)
     
 ---
-## Example
+## Slide count report:Example
 ![Example](/docs/images/slide_report_example.jpg)
 
 ---
@@ -46,7 +46,7 @@ Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and 
     in the recycle bin.
 
 ---
-# Example
+## Folder Tools: Example
 ![Example](/docs/images/folder_dump_example.JPG)
 
 
@@ -62,6 +62,6 @@ Powershell scripts savefolders.ps1 and loadfolderfrom.ps1 allow you to save and 
     The cut time can be found in the Mediasite web editor.  When you're editing the video put the time line marker to the new begining of the video.  In the time area on the right copy the time (highlighted yellow in the example) and use it as the "cuttime". 
     
 ---
-# Example
+# Srt Caption Time Adjuster: Example
 ![Example](/docs/images/srt_time_example.jpg)
 

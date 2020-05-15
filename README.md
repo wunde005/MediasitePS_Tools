@@ -6,7 +6,7 @@ Some scripts in here require the Mediasiteps module already be loaded.  The modu
 # slide count report
 Powershell script slidecountreport.ps1 reports on slide count and slides per minute for the last X amount of days
 
-note: Requires mediasiteps module be loaded
+<sub><sup>Note: Requires mediasiteps module be loaded</sup></sub>
 ---
 
 - NAME: **slidecountreport.ps1**
